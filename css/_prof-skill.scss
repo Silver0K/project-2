@@ -1,0 +1,63 @@
+.prof-skill {
+    padding: 0.1px 0;
+    background-color: $light-gray;
+    width: 100%;
+    position: relative;
+}
+
+.prof-skill__section {
+    margin: 165px 85px 165px 0;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.prof-skill__right-img {
+    width: 100%;
+}
+
+.prof-skill_title {
+    margin-bottom: 40px;
+}
+
+.prof-skill__diagram--title {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    word-spacing: 10px;
+}
+
+.prof-skill__skills-line {
+    margin-bottom: 40px;
+}
+
+.prof-skill__skills-line {
+    width: 100%;
+    height: 3px;
+    background-color: $footer-gray;
+}
+
+.prof-skill__fullness1 {
+    width: 75%;
+    height: 3px;
+    background-color: $ocean;
+}
+
+.prof-skill__fullness2 {
+    width: 90%;
+    height: 3px;
+    background-color: $ocean;
+}
+
+.prof-skill__fullness3 {
+    width: 65%;
+    height: 3px;
+    background-color: $ocean;
+}
+
+.css-adaptive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+

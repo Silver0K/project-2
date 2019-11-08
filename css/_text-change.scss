@@ -1,0 +1,31 @@
+@import "_variable.scss";
+
+.title {
+    color: $black;
+    font-family: $font-Montserrat;
+}
+
+.title--large {
+    font-size: $size-large;
+}
+
+.title--big {
+    font-size: $size-big;
+}
+
+.title--small {
+    font-size: $size-small;
+}
+
+.paragraph {
+    color: $gray;
+    font-family: $font-NunitoSans;
+}
+
+.paragraph--medium {
+    font-size: $size-medium;
+}
+
+.paragraph--special {
+    font-size: $size-special;
+}

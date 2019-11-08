@@ -1,0 +1,71 @@
+.works {
+    width: 100%;
+    max-width: 1366px;
+    justify-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.works__gallery {
+    width:24%;
+    max-width: 345px;
+    &:hover {
+        .works__link {
+            &:after {
+                visibility: visible;
+            }
+        }
+    }
+}
+
+.works__link {
+    display: block;
+    position: relative;
+    &:after {
+        content: '';
+        background: transparent url(../../img/eye.png) no-repeat center;
+        width: 52px;
+        height: 35px;
+        position: absolute;
+        margin: auto;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        visibility: hidden;
+    }
+
+    &:hover {
+        opacity: .5;
+    }
+}
+
+.works__item {
+    display: block;
+    width: 100%;
+    max-width: 340px;
+    max-height: 300px;
+}
+
+
+.works__load-more {
+    display: flex;
+    height: 100px;
+    background-color: $dark-gray;
+    color: $gray-smooth;
+    font-size: $size-small;
+    text-transform: uppercase;
+    width: 100%;
+    justify-content: center;
+    text-decoration: none;
+    margin-bottom: 100px;
+}
+
+.works__hidden {
+    vertical-align: middle;
+    margin: auto 0;
+}
+
+

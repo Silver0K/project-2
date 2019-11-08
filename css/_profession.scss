@@ -1,0 +1,16 @@
+@import "_variable.scss";
+
+.profession {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: $light-gray;
+    margin: 0 auto;
+}
+
+.profession__section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 100px auto;
+}

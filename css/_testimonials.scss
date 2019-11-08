@@ -1,0 +1,25 @@
+.testimonials {
+    background-color: $ocean;
+    padding: 0.1px 0;
+}
+
+.testimonials__section {
+    margin: 180px auto 110px auto;
+    max-width: 830px;
+    text-align: center;
+
+}
+
+.testimonials__paragraph {
+    margin-bottom: 35px;
+    font-family: $font-Montserrat;
+    color: $main-white;
+    font-size: $size-normal;
+}
+
+.testimonials__person {
+    font-family: $font-Montserrat;
+    color: $main-white;
+    font-size: $size-small;
+    text-transform: uppercase;
+}

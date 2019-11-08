@@ -1,0 +1,23 @@
+@import "_variable.scss";
+
+.hero {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 180px;
+}
+
+.hero__section {
+    margin: 0 28px 200px 0;
+    width: 480px;
+    height: 235px;
+}
+
+.hero__title {
+    margin-bottom: 32px;
+}
+
+.hero__paragraph {
+    margin-bottom: 40px;
+    line-height: 28px;
+}
+

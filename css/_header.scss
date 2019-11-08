@@ -1,0 +1,32 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    height: 100px;
+}
+
+.header__logo {
+    width: 40px;
+    height: 35px;
+}
+
+.header__navigation {
+    display: flex;
+
+    li {
+        list-style: none;
+        a {
+            padding: 15px;
+            font-size: $size-small;
+            color: $black;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-family: $font-Montserrat;
+            font-weight: bold;
+            &:hover {
+                color: $ocean;
+            }
+        }
+    }
+}

@@ -1,0 +1,29 @@
+.services {
+    background-color: $light-gray;
+    padding: 0.1px 0;
+}
+
+.services__section {
+    margin: 100px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.services__item {
+    width: 20%;
+    text-align: center;
+    margin: 0 60px 55px 0;
+    box-sizing: border-box;
+    &:nth-child(4n+4) {
+        margin-right: 0;
+    }
+}
+
+.services__image {
+    margin-bottom: 15px;
+}
+
+.services__title {
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}

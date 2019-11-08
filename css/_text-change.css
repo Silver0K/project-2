@@ -1,0 +1,19 @@
+.title {
+  color: #191919;
+  font-family: "Montserrat-Medium"; }
+
+.title--large {
+  font-size: 38px; }
+
+.title--big {
+  font-size: 30px; }
+
+.paragraph {
+  color: #787878;
+  font-family: "NunitoSans-Regular"; }
+
+.paragraph--medium {
+  font-size: 16px; }
+
+.paragraph--special {
+  font-size: 18px; }
