@@ -632,6 +632,8 @@ footer {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   height: 100px; }
+  .footer__navigation:last-child li {
+    margin-right: 0; }
   .footer__navigation li {
     margin-bottom: 5px;
     margin-right: 20px;

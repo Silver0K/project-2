@@ -43,6 +43,11 @@ footer {
     flex-direction: column;
     flex-wrap: wrap;
     height: 100px;
+    &:last-child {
+        li {
+            margin-right: 0;
+        }
+    }
     li {
         margin-bottom: 5px;
         margin-right: 20px;
