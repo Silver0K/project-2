@@ -1,0 +1,91 @@
+@import "_variable.scss";
+
+.projects {
+    background-color: $light-gray;
+    position: relative;
+    .container {
+        display: flex;
+        justify-content: flex-start;
+    }
+    :after {
+        content: "";
+        width: 49%;
+        height: 100%;
+        background-image: url(../img/right.png);
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+}
+
+.projects__section {
+    max-width: 440px;
+    margin: 100px 0;
+}
+
+.projects__title {
+    margin-bottom: 35px;
+}
+
+.projects__paragraph {
+    margin-bottom: 35px;
+}
+
+.projects__list {
+    list-style-type: none;
+}
+
+.projects__key {
+    color: $title-black;
+    font-size: $size-medium;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.projects__slider {
+    background-color: $main-white;
+    .container {
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.projects__switcher {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: $size-small;
+    color: $title-black;
+    font-weight: bold;
+    position: relative;
+    margin: 0 15px;
+}
+
+.projects--left {
+    position: relative;
+    &:before {
+        content: "";
+        position: absolute;
+        width: 7px;
+        height: 9px;
+        left: -15px;
+        top: 3px;
+        background-image: url(../img/angle-left.png);
+    }
+}
+
+.projects--right {
+    position: relative;
+    &:after {
+        content: "";
+        position: absolute;
+        width: 7px;
+        height: 9px;
+        right: -15px;
+        top: 3px;
+        background-image: url(../img/angle-right.png);
+    }
+}

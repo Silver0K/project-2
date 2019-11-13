@@ -60,6 +60,18 @@
     border: 0;
 }
 
+@media (max-width: 700px) {
+    .project-form__inline {
+        display: block;
+    }
+
+    .project-form__main-info {
+        width: 100%;
+        &:first-child {
+            margin-bottom: 30px
+        }
+    }
+}
 
 
 

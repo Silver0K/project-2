@@ -3,6 +3,17 @@
     background-color: $light-gray;
     width: 100%;
     position: relative;
+    &:after {
+        content: "";
+        width: 49%;
+        height: 100%;
+        background-image: url(../img/right.png);
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
 }
 
 .prof-skill__section {
@@ -10,10 +21,6 @@
     width: 40%;
     display: flex;
     flex-direction: column;
-}
-
-.prof-skill__right-img {
-    width: 100%;
 }
 
 .prof-skill_title {
@@ -58,6 +65,31 @@
     display: block;
     max-width: 100%;
     height: auto;
+}
+
+@media (max-width: 750px) {
+    .prof-skill {
+        &:after {
+            background-image: none;
+        }
+    }
+    .prof-skill__section {
+        margin: 60px auto 40px auto;
+        width: 100%;
+        max-width: 500px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .prof-skill__skills-line {
+        &:nth-child(3) {
+            margin-bottom: 0;
+        }
+    }
+
+    .prof-skill__diagram--title {
+        text-align: center;
+    }
 }
 
 

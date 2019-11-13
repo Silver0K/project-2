@@ -7,16 +7,14 @@
     margin: 100px 0;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
 }
 
 .services__item {
-    width: 20%;
+    max-width: 250px;
     text-align: center;
-    margin: 0 60px 55px 0;
-    box-sizing: border-box;
-    &:nth-child(4n+4) {
-        margin-right: 0;
-    }
+    margin-bottom: 40px;
 }
 
 .services__image {

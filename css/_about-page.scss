@@ -1,0 +1,43 @@
+@import "_variable.scss";
+
+.profession__title--white {
+    color: $main-white;
+}
+
+.profession__paragraph--white {
+    color: $main-white;
+}
+
+.profession--black {
+    background-color: $gray-black;
+}
+
+.about-me {
+    background-color: $light-gray;
+    position: relative;
+    &:after {
+        content: '';
+        width: 50%;
+        height: 100%;
+        background-image: url(../img/right.png);
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 1;
+    }
+    .container {
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+.about-page__section {
+    max-width: 430px;
+    margin: 140px 0;
+}
+
+.about-page__paragraph {
+    margin-bottom: 40px;
+}

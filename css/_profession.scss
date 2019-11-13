@@ -9,8 +9,19 @@
 }
 
 .profession__section {
-    width: 100%;
-    display: flex;
+    max-width: 570px;
     flex-direction: column;
     margin: 100px auto;
+}
+
+.profession__title {
+    margin-bottom: 30px;
+}
+
+.profession__button {
+    text-align: center;
+}
+
+.about-page__main {
+    background-color: $main-white;
 }

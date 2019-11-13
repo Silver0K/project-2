@@ -1,0 +1,22 @@
+.contact {
+    background-color: $light-gray;
+    padding: 0.1px 0;
+}
+
+.contact__section {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact__info {
+    max-width: 370px;
+}
+
+.contact__form {
+    width: 670px;
+}
+
+.contact__map {
+    margin-bottom: 100px;
+}

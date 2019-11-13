@@ -30,3 +30,28 @@ header {
         }
     }
 }
+
+@media (max-width: 700px) {
+    header {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .header__logo {
+        text-align: center;
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .header__navigation {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        li {
+            margin-bottom: 10px;
+            a {
+                padding: 10px;
+            }
+        }
+    }
+}

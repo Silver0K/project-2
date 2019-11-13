@@ -21,3 +21,18 @@
     line-height: 28px;
 }
 
+@media (max-width: 700px) {
+    .hero {
+        width: 100%;
+    }
+
+    .hero__section {
+        width: 100%;
+        text-align: center;
+        margin-right: 0;
+    }
+
+    .hero__paragraph {
+        color: $gray-black;
+    }
+}
