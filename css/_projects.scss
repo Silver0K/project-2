@@ -3,10 +3,7 @@
 .projects {
     background-color: $light-gray;
     position: relative;
-    .container {
-        display: flex;
-        justify-content: flex-start;
-    }
+    padding: 0.1px 0;
     :after {
         content: "";
         width: 49%;
@@ -87,5 +84,52 @@
         right: -15px;
         top: 3px;
         background-image: url(../img/angle-right.png);
+    }
+}
+
+@media (max-width: 950px) {
+    .projects {
+        :after {
+            background-image: none;
+        }
+    }
+    .projects__section {
+        margin-left: auto;
+        margin-right: auto;
+        .projects__title {
+            text-align: center;
+        }
+        .projects__paragraph {
+            text-align: center;
+        }
+    }
+    .projects__switcher {
+        max-width: 80px;
+    }
+    .projects--left {
+        position: relative;
+        text-align: center;
+        &:before {
+            content: "";
+            position: absolute;
+            width: 7px;
+            height: 9px;
+            left: -15px;
+            top: 10px;
+            background-image: url(../img/angle-left.png);
+        }
+    }
+    .projects--right {
+        position: relative;
+        text-align: center;
+        &:after {
+            content: "";
+            position: absolute;
+            width: 7px;
+            height: 9px;
+            right: -5px;
+            top: 10px;
+            background-image: url(../img/angle-right.png);
+        }
     }
 }

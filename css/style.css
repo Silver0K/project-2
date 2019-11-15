@@ -39,7 +39,9 @@ header {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    width: 100%; }
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px; }
   .header__logo {
     text-align: center;
     width: 100%;
@@ -102,7 +104,8 @@ header {
 
 @media (max-width: 700px) {
   .hero {
-    width: 100%; }
+    width: 100%;
+    margin-top: 0; }
   .hero__section {
     width: 100%;
     text-align: center;
@@ -735,16 +738,23 @@ footer {
 .about-page__paragraph {
   margin-bottom: 40px; }
 
+@media (max-width: 950px) {
+  .about-me .container {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .about-me:after {
+    background-image: none; }
+  .about-page__section {
+    max-width: 430px;
+    width: 100%;
+    text-align: center;
+    margin: 70px 0; } }
+
 .projects {
   background-color: #F8F9F9;
-  position: relative; }
-  .projects .container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: start;
-    -ms-flex-pack: start;
-    justify-content: flex-start; }
+  position: relative;
+  padding: 0.1px 0; }
   .projects :after {
     content: "";
     width: 49%;
@@ -820,6 +830,41 @@ footer {
     top: 3px;
     background-image: url(../img/angle-right.png); }
 
+@media (max-width: 950px) {
+  .projects :after {
+    background-image: none; }
+  .projects__section {
+    margin-left: auto;
+    margin-right: auto; }
+    .projects__section .projects__title {
+      text-align: center; }
+    .projects__section .projects__paragraph {
+      text-align: center; }
+  .projects__switcher {
+    max-width: 80px; }
+  .projects--left {
+    position: relative;
+    text-align: center; }
+    .projects--left:before {
+      content: "";
+      position: absolute;
+      width: 7px;
+      height: 9px;
+      left: -15px;
+      top: 10px;
+      background-image: url(../img/angle-left.png); }
+  .projects--right {
+    position: relative;
+    text-align: center; }
+    .projects--right:after {
+      content: "";
+      position: absolute;
+      width: 7px;
+      height: 9px;
+      right: -5px;
+      top: 10px;
+      background-image: url(../img/angle-right.png); } }
+
 .contact {
   background-color: #F8F9F9;
   padding: 0.1px 0; }
@@ -841,6 +886,32 @@ footer {
 
 .contact__map {
   margin-bottom: 100px; }
+
+@media (max-width: 1100px) {
+  .contact__section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto; }
+  .contact__info {
+    max-width: 100%;
+    margin: 0 auto 40px auto; }
+    .contact__info .projects__title {
+      text-align: center; }
+    .contact__info .projects__paragraph {
+      text-align: center; }
+  .contact__form {
+    max-width: 100%;
+    text-align: center; }
+    .contact__form .project-form__form .project-form__inline {
+      display: block; }
+    .contact__form .project-form__form .project-form__main-info {
+      width: 100%; }
+      .contact__form .project-form__form .project-form__main-info:first-child {
+        margin-bottom: 30px; } }
 
 @font-face {
   font-family: "Montserrat-Medium";

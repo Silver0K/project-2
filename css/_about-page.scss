@@ -41,3 +41,22 @@
 .about-page__paragraph {
     margin-bottom: 40px;
 }
+
+@media (max-width: 950px) {
+    .about-me {
+        .container {
+            justify-content: center;
+        }
+    }
+    .about-me {
+        &:after {
+            background-image: none;
+        }
+}
+    .about-page__section {
+        max-width: 430px;
+        width: 100%;
+        text-align: center;
+        margin: 70px 0;
+}
+}
